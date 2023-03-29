@@ -1,0 +1,69 @@
+
+
+.registeration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/05/26/361221-leaves-nature-digital_art.jpg');
+    background-size: cover;
+  }
+
+  .registeration-container > .form {
+    background-color: rgba(127, 180, 127, 0.693);
+    border: 1px solid rgb(89, 207, 107);
+    height: 60vh;
+    width: 25vw;
+    padding: 10px;
+  }
+
+  
+  
+  .loader {
+    position: absolute;
+    height: 50px;
+  }
+  
+  .form input[type="text"],
+.form input[type="password"] {
+  width: 90%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: rgba(127, 180, 127, 0.598);
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.form input[type="password"] {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .registeration-container > .form {
+    height: 60vh;
+    width: 90vw;
+    padding: 10px;
+  }
+
+  .form input[type="text"],
+  .form input[type="password"] {
+    margin-bottom: 30px;
+  }
+
+  .form input[type="password"] {
+    margin-bottom: 30px;
+  }
+
+} 
+
+
+.register-btn {
+  width: 90%;
+  height: 40px;
+  background-color: rgba(127, 180, 127, 0.598);
+  border: 1px solid white;
+}
+
